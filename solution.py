@@ -8,7 +8,7 @@ def webServer(port=13331):
     #Prepare a sever socket
     #Fill in start
     serverSocket.bind(('',13331))
-    serverSocket.listen(1)
+    serverSocket.listen(2)
     print('The server is ready to receive')
     #Fill in end
 
